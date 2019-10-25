@@ -13,9 +13,19 @@ public class Login extends javax.swing.JFrame {
     /**
      * Creates new form Login
      */
+   
     public Login() {
         initComponents();
     }
+public static void main(String[] args)
+    {
+        System.out.println("Hola usuario bienvenido");
+        System.out.println("A continuación se muestra una cuenta regresiva");
+
+        for (int i = 10; i >= 1;  i--)
+        {
+            System.out.println(i);//Se muestra cada valor de i (de 10 al 1)
+        }
 
     /**
      * This method is called from within the constructor to initialize the form.
